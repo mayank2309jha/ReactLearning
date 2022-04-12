@@ -1,0 +1,6 @@
+React is a Javascript library, which is used to create frontend of websites.
+
+We will treat every object on the screen as a separate component and we will add styles and functionalities to them individually.
+This will allow us to make customised changes to each component without harming the other elements on the screen.
+
+This will help us make our designs more responsive and more interactive.
