@@ -1,0 +1,24 @@
+/--
+To start any react project you first have to require it.
+Also require reactDom.
+--/
+
+var React = require("react");
+var ReactDom = require("react-dom");
+
+/--
+ReactDom.render(What to show, Where to show it)
+
+The What to show it
+Can be HTML elements
+Can be a single HTML Element.
+If you want to add multiple HTML elements then you have to surround them under a div bracket.
+
+The Where to show it (Location)
+is going to be an HTML element.
+For example the div root.
+
+document.getElementById("root")
+
+--/
+ReactDom.render()
