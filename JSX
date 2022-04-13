@@ -1,0 +1,19 @@
+When we use react in index.js file it can be used as a JSX file and we can use text that seems like HTML along with vanilla javascript.
+
+So we can use variables like.
+
+let name = "Mayank";
+
+ReactDom.render(
+<div>
+  <h1>Hello I am {name}</h1>
+</div>,
+document.getElementById("root"))
+
+
+When you place some text inside a bracket like this the compiler interprets this text as a javascript code and treats it as such.
+
+Not only can we add variables inside the {} we can also add some javascript expression in between {}.
+
+But we cannot write javascript statements like if - else statements.
+
