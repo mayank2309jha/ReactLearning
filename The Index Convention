@@ -1,0 +1,39 @@
+Normally we do not add all the components inside the index.js file.
+
+We just add one component App.js
+
+All the other attributes are inside the App.jsx
+
+App.jsx becomes
+
+import React from "react";
+import Heading from "./Heading.jsx";
+import List from "./List.jsx";
+
+function App(){
+  return (
+    <div>
+      <Heading />
+      <List />
+    </div>
+  );
+}
+
+export default App;
+
+
+
+index.js becomes
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+ReactDOM.render(
+  <App/>,
+  document.getElementById("root")
+);
+
+
+
