@@ -1,0 +1,7 @@
+import * as x from "y";
+
+x is the name by which yuo wanto to import all the guest objects from the other file to this file.
+
+y is the Address of the file from which we are importing the objects of concern.
+
+
