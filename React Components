@@ -1,0 +1,88 @@
+React Components help us to split a large code into several smaller and smaller pieces so that we can understand and handle it better.
+
+To create a component for Heading.
+--------------------------------------------------------------------------------------------------------------------------------------------
+function Heading(){
+        return <h1>Heading</h1>; 
+}
+
+Now we add this inside the ReactDom.render as if it were just another HTML tag.
+
+We can just place this function inside another js file and then import that file here.
+
+Steps:-
+
+Create a new file Heading.jsx
+It contains
+
+import React from "react";
+
+function Heading(){
+  return <h1>My Favourite Foods</h1>;
+}
+
+export default Heading;
+
+
+In index.js
+
+
+add 
+
+import Heading from "./Heading.jsx";
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+This would work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
