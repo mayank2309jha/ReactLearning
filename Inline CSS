@@ -1,0 +1,35 @@
+To add inline CSS the normal methods won't work.
+
+Say we have,
+
+<h1>Hello Worl</h1>
+
+And we want to give it red color.
+
+We will have to make a map like javascript object
+
+{color : "red"}
+
+and place it inside the javascript curly braces.
+
+this would be equal to the color of CSS.
+
+<h1 style = {{color: "red"}}>Hello World</h1>
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you want to add more inline styling yuo will have to create a javascript object.
+
+const customStyling = {
+  color:"red",
+  fontSize:"20px",
+  border: "1px solid black"
+}
+
+<h1 style = {customStyling}>Hello World</h1>
+
+Will work
+
+This also allwos us to change the customStyling as some condition changes.
+
+customStyling.color = "blue";
