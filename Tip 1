@@ -1,0 +1,4 @@
+If any JSX has to be added it can be added only inside a curly braces.
+
+<img/> is a self enclosing attribute which does not need another closing tag it is enough in itself.
+
